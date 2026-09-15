@@ -1,0 +1,112 @@
+{
+  "source": "sales.pbix / Report/Layout",
+  "scope": "Visual metadata only; measure formulas and model relationships are not included.",
+  "pages": [
+    {
+      "page": "Overview",
+      "visuals": [
+        {
+          "type": "clusteredColumnChart",
+          "fields": [
+            "Sales Territories.Sales Territory Continents",
+            "Sales.Total Sales"
+          ]
+        },
+        {
+          "type": "clusteredBarChart",
+          "fields": [
+            "Product.Product Hiérarchie.Product Category",
+            "Product.Product Hiérarchie.Product Subcategory",
+            "Sales.Total Margin %",
+            "Sum(Sales.Order Quantity)"
+          ]
+        },
+        {
+          "type": "lineChart",
+          "fields": [
+            "Sales.Total Margin %",
+            "Order Date.Order Date Hierachy.Order Date Year",
+            "Order Date.Order Date Hierachy.Order Date Month",
+            "Order Date.Order Date Hierachy.Order Date"
+          ]
+        },
+        {
+          "type": "kpi",
+          "fields": [
+            "Sales.Total Sales",
+            "Order Date.Order Date Year",
+            "Sales.Target"
+          ]
+        },
+        {
+          "type": "cardVisual",
+          "fields": [
+            "Sales.Target"
+          ]
+        },
+        {
+          "type": "slicer",
+          "fields": [
+            "Sales Territories.Sales Territory Continents"
+          ]
+        },
+        {
+          "type": "slicer",
+          "fields": [
+            "Order Date.Order Date Year"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "Dax Demo",
+      "visuals": [
+        {
+          "type": "tableEx",
+          "fields": [
+            "Sales.Total Sales",
+            "Sales.Total Margin %",
+            "Sales.Count of Sales Orders Line Items",
+            "Sales.Count of Sales Orders Line Items GT 50",
+            "Sales.Pct Sales Orders Line Items All Items",
+            "Order Date.Order Date Year",
+            "Sales.Count of Sales Orders"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "Product Sales Details",
+      "visuals": [
+        {
+          "type": "tableEx",
+          "fields": [
+            "Sales.Total Sales",
+            "Order Date.Order Date Year",
+            "Order Date.Order Date Month",
+            "Order Date.YTD Sales",
+            "Order Date.PY Total Sales",
+            "Order Date.Variation en pourcentage d'une année à l'autre de Total Sales",
+            "Product.Product Hiérarchie.Product Subcategory"
+          ]
+        },
+        {
+          "type": "actionButton",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "page": "Sales Regions",
+      "visuals": [
+        {
+          "type": "pieChart",
+          "fields": [
+            "Sales.Total Sales",
+            "Sales Territories.Sales Territory Country"
+          ]
+        }
+      ]
+    }
+  ]
+}
