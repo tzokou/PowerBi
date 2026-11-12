@@ -1,3 +1,8 @@
+> **Nouveau projet : [European Sales Report — Performance commerciale et scénarios Power BI](european-sales-report/README.md)**  
+> Projet réalisé dans le cadre de la Power BI Masterclass de Cekou Coulibaly (Udemy). [Captures, présentation et fichier PBIX](european-sales-report/).
+
+---
+
 # Adventure Works | Analyse des ventes et de la marge avec Power BI
 
 **Un rapport interactif pour explorer la performance commerciale par période, produit et territoire.**
@@ -114,3 +119,4 @@ report-structure.json           Inventaire des pages et champs des visuels
 [GitHub](https://github.com/tzokou) · [Portfolio](https://tzokou.github.io/) · [LinkedIn](https://www.linkedin.com/in/thierry-pascal-zokou-tchokonthe-b46655184/)
 
 Ressources pédagogiques : [Iteration Insights — Microsoft Press Introduction to Microsoft Power BI V2](https://github.com/IterationInsights/Microsoft-Press-Introduction-to-Microsoft-Power-BI-V2). Le jeu de données, les éléments visuels et les exercices proviennent de ce parcours. Ce dépôt présente le travail de formation de l’auteur, ses captures et la documentation de son livrable ; il ne revendique pas la création originale du cas Adventure Works. Voir les [crédits](ATTRIBUTION.md).
+
